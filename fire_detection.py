@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import json
  
-video_file = "fire1.mp4"
+video_file = "video_sample1.mp4"
 video = cv2.VideoCapture(video_file)
 start_time=cv2.getTickCount()
 #fgbg = cv2.createBackgroundSubtractorMOG2()
